@@ -21,11 +21,27 @@ class ViewController: UIViewController {
     //渡す箱はdata1,data2,data3
     
     
+    @IBOutlet weak var textField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func tapNext(_ sender: Any) {
+        
+        performSegue(withIdentifier: "next", sender: nil)
+        
+        
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        let nextVC = segue.identifier as! NextViewController
+        
+        nextVC.data1 = textField.text!
+        
+    }
+    
+    
 }
 
