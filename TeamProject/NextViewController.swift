@@ -16,8 +16,7 @@ class NextViewController: UIViewController {
     var data3 = String()
     
     @IBOutlet weak var passedData1: UILabel!
-    @IBOutlet weak var passedData2: UILabel!
-    @IBOutlet weak var passedData3: UILabel!
+
     
     
     
@@ -25,8 +24,7 @@ class NextViewController: UIViewController {
         super.viewDidLoad()
 
         passedData1.text = data1
-        passedData2.text = data2
-        passedData3.text = data3
+
         
 
         
