@@ -28,15 +28,7 @@ class NextViewController: UIViewController {
         passedData2.text = data2
         passedData3.text = data3
         
-//        let passedData1 = data1
-//        let passedData2 = data2
-//        let passedData3 = data3
-        
-        //printでdataが渡っていることを確認
-//        print(passedData1)
-//        print(passedData2)
-//        print(passedData3)
-//
+
         
     }
     
