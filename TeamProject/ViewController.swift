@@ -36,7 +36,7 @@ class ViewController: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
-        let nextVC = segue.identifier as! NextViewController
+        let nextVC = segue.destination as! NextViewController
         
         nextVC.data1 = textField.text!
         
